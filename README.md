@@ -1,4 +1,0 @@
-resume
-======
-
-Curriculum vitae
