@@ -1,0 +1,90 @@
+/*=============================
+	CSS con Estilos Generales
+  =============================*/
+@import url("style.css");
+
+#header-profile{
+	background-image: url('https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1234963_10151840098743256_2099137088_n.jpg?oh=f5f1ee1713440c0cbd7252751d93c827&oe=54A2D130&__gda__=1420039663_ae5e06da1fc5ef8b5ea9d9cff18bd782');
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 auto;
+	border: 3px #d35400 solid;
+}
+
+#header-title,
+#header-subtitle{
+	font-family: 'Varela';
+	text-transform: uppercase;
+	text-align: center;
+}
+#header-title{
+	font-size: 30px;
+	letter-spacing: 12px;
+	margin: 10px;
+	color:#ecf0f1;
+}
+#header-subtitle{
+	font-size: 15px;
+	letter-spacing: 2px;
+	color:#d35400;
+}
+
+#header-bg{
+	background-image: url('http://etap.web.id/themes/rinjani/assets/img/bg-testimonials.jpg');
+	background-image: url('http://tympanus.net/Freebies/HalcyonDaysTemplate/img/keyboard-bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#header-info{
+	padding: 100px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+#nav-menu{
+	font-family: 'Roboto';
+	background-color: #d35400;
+	color: #333;
+}
+#nav-menu ul{
+	display: table;
+	margin: 0 auto;
+}
+#nav-menu ul li{
+	display: inline-block;
+	padding: 20px;
+	cursor: pointer;
+
+	-webkit-transition: background .5s ease-in-out, color .5s ease-in-out;
+	   -moz-transition: background .5s ease-in-out, color .5s ease-in-out;
+		-ms-transition: background .5s ease-in-out, color .5s ease-in-out;
+		 -o-transition: background .5s ease-in-out, color .5s ease-in-out;
+			transition: background .5s ease-in-out, color .5s ease-in-out;
+}
+#nav-menu ul li span{
+	margin: 0 5px;
+	font-size: 20px;
+}
+#nav-menu ul li:hover{
+	color:#d35400;
+	background: #ecf0f1;
+}
+
+
+/*====================
+		About
+  ====================*/
+#about{
+	padding: 115px 0;
+}
+#about-content{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#about-content h2{
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
