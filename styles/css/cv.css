@@ -89,3 +89,7 @@
 	letter-spacing: 2px;
 	color:#d35400;
 }
+#about-content p{
+	text-align: center;
+	text-transform: uppercase;
+}
